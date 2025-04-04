@@ -29,3 +29,24 @@ O sistema tem um estilo escuro com gradiente, fontes modernas, botões arredonda
     JavaScript (ES6+)
 
     LocalStorage
+
+
+COMO USAR:
+
+Acesse o sistema pelo navegador através do link: https://arthur1804.github.io/titanforce-workout-logger/
+
+Na tela inicial, clique em “Cadastrar” para criar seu usuário.
+
+Após o cadastro, faça login normalmente com seu nome de usuário e senha.
+
+Você será redirecionado para o painel de treinos, onde pode:
+
+Adicionar exercícios com nome e categoria
+
+Filtrar por data, categoria ou status (pendente/concluído)
+
+Marcar exercícios como concluídos ou excluí-los
+
+Todos os dados ficam salvos localmente no navegador (não precisa conta externa)
+
+💡 Dica: O sistema é simples, rápido e totalmente offline — perfeito pra controlar sua rotina de treinos sem complicação.
