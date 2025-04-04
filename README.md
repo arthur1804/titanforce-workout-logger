@@ -2,7 +2,7 @@
 
 O TitanForce é um sistema web simples, mas funcional, que simula o dia a dia de uma academia com controle de treinos por usuário. Foi feito 100% em HTML, CSS e JavaScript puro, sem bibliotecas externas, como parte de um projeto de aprendizado e portfólio.
 
-A ideia era criar algo útil, bonito e com uma carinha de sistema real, com foco em organização, praticidade e uma experiência agradável pra quem usa.
+A ideia era criar algo útil, simples e com uma carinha de sistema real, com foco em organização, praticidade e uma experiência agradável pra quem usa.
 💡 O que dá pra fazer?
 
     Criar e fazer login com diferentes usuários (com dados salvos no navegador)
