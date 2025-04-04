@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Academia TitanForce</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Barra de Navegação -->
+  <header class="top-bar">
+      <div class="logo">🏋️ Academia TitanForce</div>
+      <nav class="nav-menu">
+          <a href="#">Sobre</a>
+          <a href="#">Modalidades</a>
+          <a href="#">Unidades</a>
+          <a href="#">Blog</a>
+          <a href="#">Contato</a>
+          <a href="#" class="cta-button">Aula Grátis</a>
+      </nav>
+  </header>
+
+  <div class="container">
+    <h1>🏋️ Academia TitanForce</h1>
+    <p class="subtitle">Treino de <span id="todayDate"></span></p>
+    <p style="text-align:right; font-size:14px; margin-bottom:10px;">
+        Usuário: <span id="userDisplay"></span> • 
+        <a href="#" onclick="logout()" style="color:#38bdf8;">Sair</a>
+    </p>
+      
+    <div class="input-group" style="margin-bottom: 15px;">
+        <label for="dateSelect" style="font-size:14px; color:#cbd5e1;">Data:</label>
+        <select id="dateSelect" onchange="changeDate()" style="flex:1; background:#111827; color:#fff; border:1px solid #4b5563; padding:10px; border-radius:6px;">
+        </select>
+    </div>
+      
+    <div class="input-group">
+      <input type="text" id="exerciseInput" placeholder="Nome do exercício" />
+      <select id="categoryInput">
+        <option value="Peito">Peito</option>
+        <option value="Costas">Costas</option>
+        <option value="Pernas">Pernas</option>
+        <option value="Ombros">Ombros</option>
+        <option value="Cardio">Cardio</option>
+      </select>
+      <button onclick="addExercise()">Adicionar</button>
+    </div>
+
+    <div class="filters">
+        <select id="categoryFilter" onchange="renderList()">
+        <option value="Todos">Todas as Categorias</option>
+        <option value="Peito">Peito</option>
+        <option value="Costas">Costas</option>
+        <option value="Pernas">Pernas</option>
+        <option value="Ombros">Ombros</option>
+        <option value="Cardio">Cardio</option>
+      </select>
+
+      <select id="statusFilter" onchange="renderList()">
+        <option value="Todos">Todos</option>
+        <option value="Pendentes">Pendentes</option>
+        <option value="Concluídos">Concluídos</option>
+      </select>
+    </div>
+
+    <ul id="exerciseList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

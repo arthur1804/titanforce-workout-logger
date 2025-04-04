@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - TitanForce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+  <header class="top-bar">
+    <div class="logo">🏋️ Academia TitanForce</div>
+    <nav class="nav-menu">
+        <a href="#">Sobre</a>
+        <a href="#">Modalidades</a>
+        <a href="#">Unidades</a>
+        <a href="#">Blog</a>
+        <a href="#">Contato</a>
+        <a href="#" class="cta-button">Aula Grátis</a>
+    </nav>
+</header>
+
+  <div class="login-container">
+    <h1>Login TitanForce</h1>
+
+    <div class="input-group" style="flex-direction: column; gap: 15px;">
+      <input type="text" id="username" placeholder="Usuário" />
+      <input type="password" id="password" placeholder="Senha" />
+      <button onclick="login()">Entrar</button>
+      <button onclick="register()">Cadastrar</button>
+    </div>
+
+    <p id="loginStatus" style="margin-top: 20px; text-align: center; color: #f87171;"></p>
+  </div>
+
+  <script src="script-login.js"></script>
+</body>
+
+</html>
